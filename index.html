@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <title>Yet Another... AWESOME Bootstrap page!</title>
+    <link rel="icon" type="image/png" href="./img/icon.png">
     <link rel="stylesheet" href="style.css?time=<?php echo time()?>" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
@@ -12,152 +13,206 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#home">AWESOME PAGE</a>
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-dropdown">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="mobile-dropdown">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#statistics">Statistics</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="carousel slide" id="home" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('./img/slider1.jpg');"></div>
-                <div class="carousel-caption">
-                    <h1><span>Look how AWESOME this page is!</span></h1>
+    <div id="app">
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#home">AWESOME PAGE</a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-dropdown">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mobile-dropdown">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#statistics">Statistics</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('./img/slider2.jpg');"></div>
-                <div class="carousel-caption">
-                    <h1><span>The idea was to make it as AWESOME as it can be!</span></h1>
+        </nav>
+        <div class="carousel slide" id="home" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="fill" style="background-image:url('./img/slider1.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h1><span>Look how AWESOME this page is!</span></h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('./img/slider2.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h1><span>The idea was to make it as AWESOME as it can be!</span></h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('./img/slider3.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h1><span>And it has AWESOME design!</span></h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="fill" style="background-image:url('./img/slider4.jpg');"></div>
+                    <div class="carousel-caption">
+                        <h1><span>For it is the AWESOME Website you were looking for!</span></h1>
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('./img/slider3.jpg');"></div>
-                <div class="carousel-caption">
-                    <h1><span>And it has AWESOME design!</span></h1>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('./img/slider4.jpg');"></div>
-                <div class="carousel-caption">
-                    <h1><span>For it is the AWESOME Website you were looking for!</span></h1>
-                </div>
-            </div>
-        </div>
-        <a class="right carousel-control" href="#home" data-slide="next">
+            <a class="right carousel-control" href="#home" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
-        <a class="left carousel-control" href="#home" data-slide="prev">
+            <a class="left carousel-control" href="#home" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a id="numbers-button-anchor" href="#statistics">
-            <button id="numbers-button" class="btn">See the numbers!</button>
-        </a>
-    </div>
-    <div class="container-fluid" id="statistics">
-        <div class="container">
-            <div class="row">
-                <div class="statistics-header col-xs-12">
-                    <h1>Some AWESOME numbers!</h1>
+            <a id="numbers-button-anchor" href="#statistics">
+                <button id="numbers-button" class="btn">See the numbers!</button>
+            </a>
+        </div>
+        <div class="container-fluid" id="statistics">
+            <div class="container">
+                <div class="row">
+                    <div class="statistics-header col-xs-12">
+                        <h1>Some AWESOME numbers!</h1>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="statistisc-item col-xs-12 col-sm-6 col-md-4">
-                    <div class="statistics-circle">
-                        <div class="statistics-number">100</div>
-                    </div>
-                    <h3>Percentage of how AWESOME this page is!</h3></div>
-                <div class="statistisc-item col-xs-12 col-sm-6 col-md-4">
-                    <div class="statistics-circle">
-                        <div id="random-number" class="statistics-number">952</div>
-                    </div>
-                    <h3>AWESOME random number!</h3></div>
-                <div class="statistisc-item col-xs-12 col-sm-12 col-md-4">
-                    <div class="statistics-circle">
-                        <div class="statistics-number">100</div>
-                    </div>
-                    <h3>Percentage of how much fun this is!</h3></div>
+            <div class="container">
+                <div class="row">
+                    <div class="statistisc-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="statistics-circle">
+                            <div class="statistics-number">100</div>
+                        </div>
+                        <h3>Percentage of how AWESOME this page is!</h3></div>
+                    <div class="statistisc-item col-xs-12 col-sm-6 col-md-4">
+                        <div class="statistics-circle">
+                            <div id="random-number" class="statistics-number">952</div>
+                        </div>
+                        <h3>AWESOME random number!</h3></div>
+                    <div class="statistisc-item col-xs-12 col-sm-12 col-md-4">
+                        <div class="statistics-circle">
+                            <div class="statistics-number">100</div>
+                        </div>
+                        <h3>Percentage of how much fun this is!</h3></div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div id="statistics-caption" class="col-xs-offset-2 col-xs-8">
-                    <h3>
+            <div class="container">
+                <div class="row">
+                    <div id="statistics-caption" class="col-xs-offset-2 col-xs-8">
+                        <h3>
                         We had put here all of those AWESOME numbers and we gave them all AWESOME counters just because we thought they would look AWESOME!
                     </h3>
-                    <h3>
+                        <h3>
                         How AWESOME is that?!
                     </h3>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid" id="about">
-        <div class="overlay-cover"></div>
-        <div class="overlay-top"></div>
-        <div class="overlay-bottom"></div>
-        <div class="container" id="about-content">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h1>Few words about us</h1>
+        <div class="container-fluid" id="about">
+            <div class="overlay-cover"></div>
+            <div class="overlay-bottom"></div>
+            <div class="container" id="about-content">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Few words about us</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <p>Let's relax for a while and take a look at those AWESOME mountains in the background. Take a few deep breaths, because in a moment you're about to meet our AWESOME team! Normally, we would put some lorem ipsum dolor sit amet over here, but we are too AWESOME for that kind of thingy.</p>
-                    <p>Still not ready to meet our AWESOME team? Do not worry, take your time, we are very patient and that's another AWESOME thing about us.</p>
-                    <p>So we will just wait here for you!</p>
-                    <p>Just tell when you're ready!</p>
-                    <p>Ready?</p>
-                    <p>AWESOME! Let's meet our team!</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>Let's relax for a while and take a look at those AWESOME mountains in the background. Take a few deep breaths, because in a moment you're about to meet our AWESOME team! Normally, we would put some lorem ipsum dolor sit amet over here, but we are too AWESOME for that kind of thingy.</p>
+                        <p>Still not ready to meet our AWESOME team? Do not worry, take your time, we are very patient and that's another AWESOME thing about us.</p>
+                        <p>So we will just wait here for you!</p>
+                        <p>Just tell when you're ready!</p>
+                        <p>Ready?</p>
+                        <p>AWESOME! Let's meet our team!</p>
+                    </div>
                 </div>
-            </div>
-            <div id="team-leaders" class="row">
-                <div class="team-item col-xs-12 col-sm-6 col-md-3">
-                    <img src="./img/team1-b.jpg" alt="A team member" class="img-responsive img-circle" />
-                    <p class="team-caption">John Smith</p>
+                <div id="team-leaders" class="row">
+                    <div class="team-item col-xs-12 col-sm-6 col-md-3">
+                        <img src="./img/team1-b.jpg" alt="A team member" class="img-responsive img-circle" />
+                        <p class="team-caption">John Smith</p>
+                    </div>
+                    <div class="team-item col-xs-12 col-sm-6 col-md-3">
+                        <img src="./img/team2-b.jpg" alt="A team member" class="img-responsive img-circle" />
+                        <p class="team-caption">Mr. T</p>
+                    </div>
+                    <div class="team-item col-xs-12 col-sm-6 col-md-3">
+                        <img src="./img/team3-b.jpg" alt="A team member" class="img-responsive img-circle" />
+                        <p class="team-caption">Templeton Peck</p>
+                    </div>
+                    <div class="team-item col-xs-12 col-sm-6 col-md-3">
+                        <img src="./img/team4-b.jpg" alt="A team member" class="img-responsive img-circle" />
+                        <p class="team-caption">H. M. Murdock</p>
+                    </div>
                 </div>
-                <div class="team-item col-xs-12 col-sm-6 col-md-3">
-                    <img src="./img/team2-b.jpg" alt="A team member" class="img-responsive img-circle" />
-                    <p class="team-caption">Mr. T</p>
-                </div>
-                <div class="team-item col-xs-12 col-sm-6 col-md-3">
-                    <img src="./img/team3-b.jpg" alt="A team member" class="img-responsive img-circle" />
-                    <p class="team-caption">Templeton Peck</p>
-                </div>
-                <div class="team-item col-xs-12 col-sm-6 col-md-3">
-                    <img src="./img/team4-b.jpg" alt="A team member" class="img-responsive img-circle" />
-                    <p class="team-caption">H. M. Murdock</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <h2>Yes... This is the A Team. For the A stands for AWESOME!!!</h2>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2>Yes... This is the A Team. For the A stands for AWESOME!!!</h2>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="" id="contact">
+        <div class="container-fluid" id="contact">
+            <div class="container">
+                <div id="contact-header" class="row">
+                    <div class="col-xs-12">
+                        <h1>Contact us!</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="contact-items-wrapper" class="col-xs-12 col-md-6">
+                        <h3>Yup, we use Font Awesome. You know why...</h3>
+                        <p class="contact-item"><i class="fas fa-phone-square"></i><span>0-111-AWESOME</span></p>
+                        <p class="contact-item"><i class="fab fa-facebook"></i><span>AWESOME Facebook icon!</span></p>
+                        <p class="contact-item"><i class="fab fa-twitter-square"></i><span>AWESOME Twitter icon!</span></p>
+                        <p class="contact-item"><i class="fab fa-pinterest-square"></i><span>AWESOME Pinterest icon!</span></p>
+                    </div>
+                    <div id="form-wrapper" class="col-xs-12 col-md-6">
+                        <div class="form-area">
+                            <form action="">
+                                <h3>Contact Form</h3>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                                </div>
+                                <button type="submit" id="form-submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="map-wrapper" class="row">
+                    <div class="col-xs-12">
+                        <div id="map-caption">
+                            <h4>Look at this AWESOME map! If we had a company localization, it would be totally displayed here!</h4>
+                        </div>
+                        <div id="map">
+                            <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-27.773437500000004%2C32.694865977875075%2C45.615234375%2C59.66774058164963&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="container-fluid">
+                Yet another... AWESOME Bootstrap page by Piotr Henczel -2018
+            </div>
+        </footer>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="app.js?time=<?php echo time()?>"></script>
 </body>

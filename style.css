@@ -1,6 +1,11 @@
 html,
-body {
+body,
+#app {
     height: 100%;
+}
+
+.btn {
+    outline-style: none !important;
 }
 
 .navbar {
@@ -44,7 +49,6 @@ body {
     bottom: 15vh;
     left: 50%;
     transform: translateX(-50%);
-    outline-style: none;
     background-color: #343a40;
     color: white;
     font-size: 16px;
@@ -122,18 +126,6 @@ body {
     z-index: 1;
 }
 
-
-
-/*.overlay-top {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
-    background-image: linear-gradient(#30f2c6, rgba(0, 0, 0, 0));
-    z-index: 2;
-}*/
-
 .overlay-bottom {
     position: absolute;
     bottom: 0;
@@ -151,7 +143,7 @@ body {
 }
 
 #team-leaders {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .team-item img {
@@ -162,4 +154,62 @@ body {
     padding-top: 10px;
     padding-bottom: 30px;
     text-align: center;
+}
+
+#contact {
+    padding: 20px 0;
+    background-color: #000000;
+    font-size: 16px;
+    color: white;
+}
+
+#contact-header {
+    text-align: center;
+}
+
+#contact-items-wrapper h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contact-item {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.contact-item:hover {
+    cursor: pointer;
+}
+
+.contact-item:hover span {
+    color: silver;
+}
+
+.contact-item i {
+    margin-right: 10px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+form br {
+    clear: both;
+}
+
+form h3 {
+    margin-bottom: 25px;
+    text-align: center !important;
+}
+
+#map-wrapper {
+    padding-top: 40px;
+}
+
+#map-caption {
+    text-align: center;
+}
+
+#footer {
+    background-color: #337ab7;
+    text-align: center;
+    color: white;
 }
