@@ -1,5 +1,8 @@
 var main = function() {
+    //make random number
+    $('#random-number').text(Math.floor((Math.random() * 1000) + 1));
 
+    //random number end
     //slide animated links
     $('body').scrollspy({ target: ".navbar", offset: 50 });
 
