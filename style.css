@@ -107,7 +107,8 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    padding: 150px 0;
+    padding-top: 50px;
+    padding-bottom: 150px;
     color: white;
 }
 
@@ -121,22 +122,24 @@ body {
     z-index: 1;
 }
 
-.overlay-top {
+
+
+/*.overlay-top {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 150px;
     background-image: linear-gradient(#30f2c6, rgba(0, 0, 0, 0));
     z-index: 2;
-}
+}*/
 
 .overlay-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 150px;
     background-image: linear-gradient(rgba(0, 0, 0, 0), #000000);
     z-index: 2;
 }
