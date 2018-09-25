@@ -247,6 +247,9 @@ form h3 {
         background-image: url("./img/about-bg-mobile.jpg");
         background-position: top;
         background-attachment: scroll;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
         padding-bottom: 100px;
     }
 
