@@ -245,7 +245,7 @@ form h3 {
 @media (max-width: 991.98px) {
     #about {
         background-image: url("./img/about-bg-mobile.jpg");
-        background-position: center top;
+        background-position: center;
         background-attachment: scroll;
         -o-background-size: cover;
         -moz-background-size: cover;
