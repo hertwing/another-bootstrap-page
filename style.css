@@ -211,6 +211,49 @@ form h3 {
 
 #footer {
     background-color: #337ab7;
+    font-size: 14px;
     text-align: center;
     color: white;
+}
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 1.9em !important;
+    }
+
+    h2 {
+        font-size: 1.57em !important;
+    }
+
+    h3 {
+        font-size: 1.23em !important;
+    }
+
+    h5 {
+        font-size: 1.15em !important;
+    }
+
+    h6 {
+        font-size: .9em !important;
+    }
+
+    #footer {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #about {
+        background-image: url("./img/about-bg-mobile.jpg");
+        background-position: top;
+        padding-bottom: 100px;
+    }
+
+    .overlay-bottom {
+        height: 75px;
+    }
+
+    #footer {
+        font-size: 12px;
+    }
 }
